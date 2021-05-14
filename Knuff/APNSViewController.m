@@ -26,6 +26,7 @@
 
 #import <pop/POP.h>
 #import <Fragaria/Fragaria.h>
+#import <FragariaDefaultsCoordinator/FragariaDefaultsCoordinator.h>
 
 @interface APNSViewController () <MGSFragariaTextViewDelegate, MGSDragOperationDelegate, APNSDevicesViewControllerDelegate, NSPopoverDelegate, NSTextViewDelegate, SBAPNSDelegate>
 @property (nonatomic, strong) FBKVOController *KVOController;

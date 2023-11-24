@@ -48,6 +48,21 @@ NSArray<NSString *> * APNSSecIdentityGetTopics(SecIdentityRef identity) {
           
         return array;
     }
+  } else if (values[APNSSecIdentityTypeDevelopmentCustomExtension]) {
+      
+      NSDictionary *topicContents = values[APNSSecIdentityTypeUniversalCustomExtension];
+      if (topicContents) {
+        NSMutableArray<NSString *> *array = [NSMutableArray new];
+        NSArray *topicArray = topicContents[@"value"];
+        
+        for (NSDictionary *topic in topicArray) {
+          if ([topic[@"label"] isEqualToString:@"Data"]) {
+            [array addObject:topic[@"value"]];
+          }
+        }
+          
+        return array;
+    }
   }
     
   return @[];

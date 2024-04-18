@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol SBAPNSDelegate <NSObject>
 - (void)APNS:(SBAPNS *)APNS didRecieveStatus:(NSInteger)statusCode reason:(NSString *)reason forID:(nullable NSString *)ID;
 - (void)APNS:(SBAPNS *)APNS didFailWithError:(NSError *)error;
+@optional
+- (void)APNSDidSuccess:(SBAPNS *)APNS;
 @end
 
 @interface SBAPNS : NSObject

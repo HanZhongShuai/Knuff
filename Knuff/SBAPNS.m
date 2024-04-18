@@ -90,7 +90,13 @@
       
       // Not implemented?
 //      NSString *ID = r.allHeaderFields[@"apns-id"];
-      [self.delegate APNS:self didRecieveStatus:r.statusCode reason:reason forID:nil];
+        if (self.delegate && [self.delegate respondsToSelector:@selector(APNS:didRecieveStatus:reason:forID:)]) {
+            [self.delegate APNS:self didRecieveStatus:r.statusCode reason:reason forID:nil];
+        }
+    } else if (r.statusCode == 200) {
+        if (self.delegate && [self.delegate respondsToSelector:@selector(APNSDidSuccess:)]) {
+            [self.delegate APNSDidSuccess:self];
+        }
     }
   }];
   [task resume];

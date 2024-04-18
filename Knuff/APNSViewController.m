@@ -670,6 +670,15 @@
 
 #pragma mark - SBAPNSDelegate
 
+- (void)APNSDidSuccess:(SBAPNS *)APNS
+{
+    NSAlert *alert = [NSAlert new];
+    [alert addButtonWithTitle:@"OK"];
+    alert.messageText = @"successful";
+
+    [alert beginSheetModalForWindow:self.document.windowForSheet completionHandler:nil];
+}
+
 - (void)APNS:(SBAPNS *)APNS didRecieveStatus:(NSInteger)statusCode reason:(NSString *)reason forID:(NSString *)ID {
 
     [self showError:[NSString stringWithFormat:@"%ld: %@", (long)statusCode, reason]];

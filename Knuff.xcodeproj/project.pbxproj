@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		457B12D8264E124C007A7C4C /* FragariaDefaultsCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457B12D5264E124C007A7C4C /* FragariaDefaultsCoordinator.framework */; };
 		457B12D9264E124C007A7C4C /* FragariaDefaultsCoordinator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 457B12D5264E124C007A7C4C /* FragariaDefaultsCoordinator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F402B938202B9D6200E3F6A4 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F402B936202B9D6200E3F6A4 /* Crashlytics.framework */; };
-		F402B939202B9D6200E3F6A4 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F402B937202B9D6200E3F6A4 /* Fabric.framework */; };
 		F4069AF01AB47A60008E79D8 /* APNSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F4069AEF1AB47A60008E79D8 /* APNSItem.m */; };
 		F4069AF61AB589A1008E79D8 /* APNSDevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4069AF51AB589A1008E79D8 /* APNSDevicesViewController.m */; };
 		F4069AF91AB59F36008E79D8 /* APNSDeviceTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4069AF81AB59F36008E79D8 /* APNSDeviceTableCellView.m */; };
@@ -18,8 +16,6 @@
 		F4069AFF1AB5BEBC008E79D8 /* SBAPNS.m in Sources */ = {isa = PBXBuildFile; fileRef = F4069AFE1AB5BEBC008E79D8 /* SBAPNS.m */; };
 		F40AA5031AC0C7400040B9CA /* DocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F40AA5021AC0C7400040B9CA /* DocumentIcon.icns */; };
 		F40E5480228EB83F000BD492 /* Knuff.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F40E547F228EB83E000BD492 /* Knuff.p12 */; };
-		F42CC4B51C565BEB00F10549 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42CC4B41C565BEB00F10549 /* Sparkle.framework */; };
-		F42CC4B61C565BEB00F10549 /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42CC4B41C565BEB00F10549 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F44935B41AEFF186006E5B9D /* APNSIdentityExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = F44935B31AEFF186006E5B9D /* APNSIdentityExporter.m */; };
 		F4592A041AB475D000041A6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4592A031AB475D000041A6C /* AppDelegate.m */; };
 		F4592A061AB475D000041A6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4592A051AB475D000041A6C /* main.m */; };
@@ -117,7 +113,6 @@
 			files = (
 				F46BF9041C148A8F003ED597 /* Fragaria.framework in Embed Frameworks */,
 				457B12D9264E124C007A7C4C /* FragariaDefaultsCoordinator.framework in Embed Frameworks */,
-				F42CC4B61C565BEB00F10549 /* Sparkle.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,8 +123,6 @@
 		1EF9C39E93DC21EF51D7E054 /* Pods_Knuff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Knuff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DAA706A91FFEBE8B3339DE /* Pods-Knuff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knuff.debug.xcconfig"; path = "Target Support Files/Pods-Knuff/Pods-Knuff.debug.xcconfig"; sourceTree = "<group>"; };
 		889BA9E14747250BFE8AFC25 /* Pods-Knuff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knuff.release.xcconfig"; path = "Target Support Files/Pods-Knuff/Pods-Knuff.release.xcconfig"; sourceTree = "<group>"; };
-		F402B936202B9D6200E3F6A4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
-		F402B937202B9D6200E3F6A4 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
 		F4069AEE1AB47A60008E79D8 /* APNSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNSItem.h; sourceTree = "<group>"; };
 		F4069AEF1AB47A60008E79D8 /* APNSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNSItem.m; sourceTree = "<group>"; };
 		F4069AF41AB589A1008E79D8 /* APNSDevicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNSDevicesViewController.h; sourceTree = "<group>"; };
@@ -142,7 +135,6 @@
 		F4069AFE1AB5BEBC008E79D8 /* SBAPNS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBAPNS.m; sourceTree = "<group>"; };
 		F40AA5021AC0C7400040B9CA /* DocumentIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DocumentIcon.icns; sourceTree = "<group>"; };
 		F40E547F228EB83E000BD492 /* Knuff.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Knuff.p12; sourceTree = "<group>"; };
-		F42CC4B41C565BEB00F10549 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../Sparkle.framework; sourceTree = "<group>"; };
 		F44935B21AEFF186006E5B9D /* APNSIdentityExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNSIdentityExporter.h; sourceTree = "<group>"; };
 		F44935B31AEFF186006E5B9D /* APNSIdentityExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNSIdentityExporter.m; sourceTree = "<group>"; };
 		F45929FD1AB475D000041A6C /* Knuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,10 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F42CC4B51C565BEB00F10549 /* Sparkle.framework in Frameworks */,
-				F402B939202B9D6200E3F6A4 /* Fabric.framework in Frameworks */,
 				F46BF9031C148A8F003ED597 /* Fragaria.framework in Frameworks */,
-				F402B938202B9D6200E3F6A4 /* Crashlytics.framework in Frameworks */,
 				457B12D8264E124C007A7C4C /* FragariaDefaultsCoordinator.framework in Frameworks */,
 				FECFE5744DC13647DFE19EEC /* Pods_Knuff.framework in Frameworks */,
 			);
@@ -300,9 +289,6 @@
 		F4CBBBD51AC328D000ED7B44 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				F402B936202B9D6200E3F6A4 /* Crashlytics.framework */,
-				F402B937202B9D6200E3F6A4 /* Fabric.framework */,
-				F42CC4B41C565BEB00F10549 /* Sparkle.framework */,
 				F46BF8E91C148A46003ED597 /* Fragaria */,
 			);
 			path = Vendor;
@@ -328,7 +314,6 @@
 				F45929FA1AB475D000041A6C /* Frameworks */,
 				F45929FB1AB475D000041A6C /* Resources */,
 				F43C1EEA1AC329C9001D9501 /* Embed Frameworks */,
-				F402B935202B9D3200E3F6A4 /* Fabric */,
 				2C20D078B63C57C455A211E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -509,20 +494,6 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
-		};
-		F402B935202B9D3200E3F6A4 /* Fabric */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Fabric;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run a944252ee77026be3648fe128dd36d4038925030 84cbc9fe10648575ebfe5cd5c815eeec6b6e3d27336836f293fa8a5ddd72b2c0\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
